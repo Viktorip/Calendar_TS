@@ -1,0 +1,239 @@
+{
+    "2023": [
+        {
+            "date": "01.01.2023",
+            "isBankingDate": false,
+            "nameFI": "Uudenvuodenpäivä",
+            "nameSE": "Nyårsdagen",
+            "nameEN": "New Year's Day"
+        },
+        {
+            "date": "06.01.2023",
+            "isBankingDate": false,
+            "nameFI": "Loppiainen",
+            "nameSE": "Trettondag",
+            "nameEN": "Epiphany"
+        },
+        {
+            "date": "07.04.2023",
+            "isBankingDate": false,
+            "nameFI": "Pitkäperjantai",
+            "nameSE": "Långfredagen",
+            "nameEN": "Good Friday"
+        },
+        {
+            "date": "10.04.2023",
+            "isBankingDate": false,
+            "nameFI": "Toinen pääsiäispäivä",
+            "nameSE": "Annandag påsk",
+            "nameEN": "Easter Monday"
+        },
+        {
+            "date": "01.05.2023",
+            "isBankingDate": false,
+            "nameFI": "Vappu",
+            "nameSE": "Första maj",
+            "nameEN": "May Day"
+        },
+        {
+            "date": "18.05.2023",
+            "isBankingDate": false,
+            "nameFI": "Helatorsta",
+            "nameSE": "Kristi himmelsfärdsdag",
+            "nameEN": "Ascension Day"
+        },
+        {
+            "date": "23.06.2023",
+            "isBankingDate": false,
+            "nameFI": "Juhannusaatto",
+            "nameSE": "Midsommarafton",
+            "nameEN": "Midsummer's Eve"
+        },
+        {
+            "date": "06.12.2023",
+            "isBankingDate": false,
+            "nameFI": "Itsenäisyyspäivä",
+            "nameSE": "Självständigshetsdagen",
+            "nameEN": "Independence Day"
+        },
+        {
+            "date": "24.12.2023",
+            "isBankingDate": false,
+            "nameFI": "Jouluaatto",
+            "nameSE": "Julafton",
+            "nameEN": "Christmas Eve"
+        },
+        {
+            "date": "25.12.2023",
+            "isBankingDate": false,
+            "nameFI": "Joulupäivä",
+            "nameSE": "Juldagen",
+            "nameEN": "Christmas Day"
+        },
+        {
+            "date": "26.12.2023",
+            "isBankingDate": false,
+            "nameFI": "Tapaninpäivä",
+            "nameSE": "Annandag jul",
+            "nameEN": "Boxing Day"
+        }
+    ],
+    "2024": [
+        {
+            "date": "01.01.2024",
+            "isBankingDate": false,
+            "nameFI": "Uudenvuodenpäivä",
+            "nameSE": "Nyårsdagen",
+            "nameEN": "New Year's Day"
+        },
+        {
+            "date": "06.01.2024",
+            "isBankingDate": false,
+            "nameFI": "Loppiainen",
+            "nameSE": "Trettondag",
+            "nameEN": "Epiphany"
+        },
+        {
+            "date": "29.03.2024",
+            "isBankingDate": false,
+            "nameFI": "Pitkäperjantai",
+            "nameSE": "Långfredagen",
+            "nameEN": "Good Friday"
+        },
+        {
+            "date": "01.04.2024",
+            "isBankingDate": false,
+            "nameFI": "Toinen pääsiäispäivä",
+            "nameSE": "Annandag påsk",
+            "nameEN": "Easter Monday"
+        },
+        {
+            "date": "01.05.2024",
+            "isBankingDate": false,
+            "nameFI": "Vappu",
+            "nameSE": "Första maj",
+            "nameEN": "May Day"
+        },
+        {
+            "date": "09.05.2024",
+            "isBankingDate": false,
+            "nameFI": "Helatorsta",
+            "nameSE": "Kristi himmelsfärdsdag",
+            "nameEN": "Ascension Day"
+        },
+        {
+            "date": "21.06.2024",
+            "isBankingDate": false,
+            "nameFI": "Juhannusaatto",
+            "nameSE": "Midsommarafton",
+            "nameEN": "Midsummer's Eve"
+        },
+        {
+            "date": "06.12.2024",
+            "isBankingDate": false,
+            "nameFI": "Itsenäisyyspäivä",
+            "nameSE": "Självständigshetsdagen",
+            "nameEN": "Independence Day"
+        },
+        {
+            "date": "24.12.2024",
+            "isBankingDate": false,
+            "nameFI": "Jouluaatto",
+            "nameSE": "Julafton",
+            "nameEN": "Christmas Eve"
+        },
+        {
+            "date": "25.12.2024",
+            "isBankingDate": false,
+            "nameFI": "Joulupäivä",
+            "nameSE": "Juldagen",
+            "nameEN": "Christmas Day"
+        },
+        {
+            "date": "26.12.2024",
+            "isBankingDate": false,
+            "nameFI": "Tapaninpäivä",
+            "nameSE": "Annandag jul",
+            "nameEN": "Boxing Day"
+        }
+    ],
+    "2025": [
+        {
+            "date": "01.01.2025",
+            "isBankingDate": false,
+            "nameFI": "Uudenvuodenpäivä",
+            "nameSE": "Nyårsdagen",
+            "nameEN": "New Year's Day"
+        },
+        {
+            "date": "06.01.2025",
+            "isBankingDate": false,
+            "nameFI": "Loppiainen",
+            "nameSE": "Trettondag",
+            "nameEN": "Epiphany"
+        },
+        {
+            "date": "18.04.2025",
+            "isBankingDate": false,
+            "nameFI": "Pitkäperjantai",
+            "nameSE": "Långfredagen",
+            "nameEN": "Good Friday"
+        },
+        {
+            "date": "21.04.2025",
+            "isBankingDate": false,
+            "nameFI": "Toinen pääsiäispäivä",
+            "nameSE": "Annandag påsk",
+            "nameEN": "Easter Monday"
+        },
+        {
+            "date": "01.05.2025",
+            "isBankingDate": false,
+            "nameFI": "Vappu",
+            "nameSE": "Första maj",
+            "nameEN": "May Day"
+        },
+        {
+            "date": "29.05.2025",
+            "isBankingDate": false,
+            "nameFI": "Helatorsta",
+            "nameSE": "Kristi himmelsfärdsdag",
+            "nameEN": "Ascension Day"
+        },
+        {
+            "date": "20.06.2025",
+            "isBankingDate": false,
+            "nameFI": "Juhannusaatto",
+            "nameSE": "Midsommarafton",
+            "nameEN": "Midsummer's Eve"
+        },
+        {
+            "date": "06.12.2025",
+            "isBankingDate": false,
+            "nameFI": "Itsenäisyyspäivä",
+            "nameSE": "Självständigshetsdagen",
+            "nameEN": "Independence Day"
+        },
+        {
+            "date": "24.12.2025",
+            "isBankingDate": false,
+            "nameFI": "Jouluaatto",
+            "nameSE": "Julafton",
+            "nameEN": "Christmas Eve"
+        },
+        {
+            "date": "25.12.2025",
+            "isBankingDate": false,
+            "nameFI": "Joulupäivä",
+            "nameSE": "Juldagen",
+            "nameEN": "Christmas Day"
+        },
+        {
+            "date": "26.12.2025",
+            "isBankingDate": false,
+            "nameFI": "Tapaninpäivä",
+            "nameSE": "Annandag jul",
+            "nameEN": "Boxing Day"
+        }
+    ]
+}
