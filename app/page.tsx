@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect } from "react";
-import Calendar from "./components/Calendar";
+import Calendar from "../components/Calendar";
 
 export default function Home() {
 
