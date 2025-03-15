@@ -2,8 +2,8 @@ import { ReactNode, useEffect, useState } from "react"
 import { getDaysInMonth, getMonth, getMonthLocaleString, getYear, getDayLocaleString } from "../utils/dateutils";
 import { capitalizeFirstLetter } from "../utils/utils";
 import CalendarCell from "./CalendarCell";
-import { IoIosArrowDropleft } from "react-icons/io";
-import { IoIosArrowDropright } from "react-icons/io";
+import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 export default function Calendar({ monthN }: { monthN?: number }, { yearN }: { yearN?: number }) {
     const [month, setMonth] = useState<number>(monthN || getMonth());
@@ -37,11 +37,11 @@ export default function Calendar({ monthN }: { monthN?: number }, { yearN }: { y
         <div>
 
             <div className="flex justify-center w-full">
-                <div onClick={handlePrevMonthClick}><IoIosArrowDropleft className="text-4xl hover:opacity-75 hover:cursor-pointer" /></div>
+                <div onClick={handlePrevMonthClick}><KeyboardArrowLeftIcon className="text-3xl hover:cursor-pointer hover:opacity-75" /></div>
                 <div className="flex justify-center w-52 text-xl font-bold">
                     {monthLocale} {year}
                 </div>
-                <div onClick={handleNextMonthClick}><IoIosArrowDropright className="text-4xl hover:opacity-75 hover:cursor-pointer" /></div>
+                <div onClick={handleNextMonthClick}><KeyboardArrowRightIcon className="text-3xl hover:cursor-pointer hover:opacity-75" /></div>
             </div>
             <div className="grid sm:gap-4 max-sm:gap-2 sm:grid-cols-7 max-sm:grid-cols-1 sm:p-3 max-sm:p-1">
                 {cells}
