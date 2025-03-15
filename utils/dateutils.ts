@@ -1,3 +1,4 @@
+import { DateTime } from "luxon";
 
 export function getMonth():number {
     const m:number = new Date().getMonth();
@@ -23,4 +24,18 @@ export function getDayLocaleString(year:number, month:number, day:number, locale
     const d = new Date(year,month,day);
     const tf = new Intl.DateTimeFormat(locale, dayFormat).format(d);
     return tf;
+}
+
+export function getTodayLocaleStringLong(locale:string = 'fi-FI') {
+    const d = new Date();
+    return new Intl.DateTimeFormat(locale, {
+        dateStyle: "full",
+    }).format(d);
+}
+
+export function getNextHolidayDate(data:holidaydata) {
+    const d = new Date();
+    const year:string = d.getFullYear().toString();
+    const next = data[year].find((item:holiday) => DateTime.fromFormat(item.date, "dd.MM.yyyy").toUnixInteger() > Math.floor(d.getTime() / 1000));
+    return next;
 }

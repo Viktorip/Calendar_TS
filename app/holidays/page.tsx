@@ -5,6 +5,8 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { getNextHolidayDate, getTodayLocaleStringLong } from '@/utils/dateutils';
+import { capitalizeFirstLetter } from '@/utils/utils';
 
 const renderYearAccordian = (yearArr: Array<holiday>, year: string) => {
     return (
@@ -33,13 +35,15 @@ const renderYearAccordian = (yearArr: Array<holiday>, year: string) => {
 
 export default function HolidaysPage() {
     const hdata: holidaydata = data;
+    const today:string = capitalizeFirstLetter(getTodayLocaleStringLong());
+    const nextHoliday = getNextHolidayDate(hdata);
 
     return (
         <div className='flex flex-col items-center'>
-            <div className='sm:w-4/5 max-sm:w-full'>Juhlapyhät listattuna</div>
+            <div className='sm:w-4/5 max-sm:w-full'>Tänään on {today}</div>
+            <div className='sm:w-4/5 max-sm:w-full'>Seuraava juhlapyhä on {nextHoliday?.nameFI} ({nextHoliday?.date})</div>
             <div className='sm:w-4/5 max-sm:w-full space-y-4'>
                 {Object.keys(hdata).map((el: string) => {
-
                     return renderYearAccordian(hdata[el], el)
                 })}
             </div>
